@@ -1,0 +1,355 @@
+body{
+    background: #ddf1d6;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+/* nav bar styles below */
+.nav-bar{
+    background: #131921;
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.border:hover{
+    border: white solid 1px;
+}
+.nav-amz-logo{
+    height: 50px;
+    width: 125px;
+    margin-bottom: 10px;
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+}
+    /* nav - location */
+.fir-loc-txt{
+    font-size: 0.72rem;
+    color: #cccccc;
+    margin-left: 20px;
+}
+.location-icon{
+    display: flex;
+}
+.sec-loc-txt{
+    font-weight: bold;
+    font-size: 0.90rem;
+}
+    /* nav - search */
+.search-nav{
+    display: flex;
+    width: 780px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-nav:hover{
+    border: 3px solid orange;
+}
+.sea-sele{
+    width: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #666666;
+    border: none;
+    background: #e6e6e6;
+    
+}
+.sea-inp{
+    width: 100%;
+    font-size: 0.90rem;
+    border: none #ffffff;
+}
+.sea-icon{
+    width: 50px;
+    background: #febd69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #333333;
+}
+    /* nav - india Eng section */
+.india-sec{
+    width: 55px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.ind-img-cont{
+    width: 20px;
+    display: flex;
+}
+.india-img{
+    width: 100%;
+}
+.en{
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+    /* nav - sign section */
+.sign-txt{
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+    /* nav - cart */
+.cart-nav{
+    font-size: 0.90rem;
+    font-weight: bold;
+}
+.cart-nav i{
+    font-size: 30px;
+}
+
+/* panel */
+
+.panel{
+    background: #232f3e;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.all-ops select{
+    font-family: sans-serif;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 0.90rem;
+    margin-left: 5px;
+}
+.all-ops p{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 0.90rem;
+    font-weight: 500;
+    margin-left: 13px;
+}
+.all-ops{
+    width: 95%;
+}
+
+/* content section */
+
+/* main amazon BG image */
+.main-img{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/sudipta/GW/BAU/Budgetunrec._CB777837018_.jpg);
+    height: 600px;
+    background-size: cover;
+}
+/* the box containing shopping boxes */
+.shopping-total-div {
+    background: #ddf1d6;
+    margin-top: 20px;
+    height: 395px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* item total box */
+.shopping-box{
+    background: white;
+    width: 357px;
+    height: 395px;
+    padding-left: 28px;
+    padding-top: 25px;
+    position: relative;
+}
+.shop-headings{
+    font-size: 1.2rem;
+}
+/* Products box */
+.box-images-div{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.box-images{
+    height: 100px;
+    width: 140px;
+}
+.box-para{
+    font-size: 0.7rem;
+}
+.box-blue-txt{
+    position: absolute;
+    bottom: 10px;
+    color: #3671aa;
+    font-size: 0.75rem;
+    font-weight: 520;
+}
+
+/* shopping sec type-2 */
+.shopping-total-div2 {
+    background: white;
+    width: 1485px;
+    height: 265px;
+    margin-top: 20px;
+    margin-left: 18px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.div2-inside{
+    height: 210px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: white;
+}
+.div2-images{
+    height: 168px;
+}
+
+/* sign recommendation sec */
+.sign-rec{
+    margin-top: 20px;
+    height: 220px;
+    background: white;
+    width: 100%;
+    position: relative;
+}
+.sign-rec-sub{
+    position: absolute;
+    top: 17px;
+    height: 145px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 1px solid #dddddd;
+}
+.sign-but{
+    height: 30px;
+    width: 240px;
+    border: none;
+    background: #ffd814;
+    border-radius: 15px;
+}
+.new-cus-txt{
+    font-size: 0.7rem;
+}
+.back-top{
+    width: 100%;
+    height: 40px;
+    background: #37475a;
+    position: absolute;
+    bottom: 0;
+    line-height: 40px;
+}
+.back-top-txt{
+    text-align: center;
+    font-size: 0.75rem;
+    color: white;
+}
+
+/* footer sec */
+.footer-1{
+    width: 100%;
+    height: 350px;
+    background: #232f3e;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 50px;
+    border-bottom: 1px solid #3a4553;
+}
+.foot-1-list li{
+    list-style: none;
+    color: white;
+    padding-top: 7px;
+}
+.foot-1-list li a{
+    font-size: 0.9rem;
+}
+.foot-para-head{
+    font-weight: bold;
+}
+
+.footer-2{
+    width: 100%;
+    height: 80px;
+    background: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.amz-logo2{
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+    width: 95px;
+    height: 40px;
+    margin-right: 60px;
+}
+.india2-div{
+    width: 80px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    gap: 5px;
+    border: 1px solid #767676;
+}
+
+.footer-3{
+    background: #131921;
+    height: 200px;
+}
+.foot-3-sec{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+    padding-right: 330px;
+}
+.foot-3-list li a{
+    color: white;
+    font-size: 0.7rem;
+}
+.foot-3-list li{
+    list-style: none;
+}
+.foot-3-list li p{
+    color: white;
+    font-size: 0.80rem;
+    font-weight: bold;
+}
+
+.footer-4{
+    height: 90px;
+    width: 100%;
+    background: #131921;
+    text-align: center;
+    padding-top: 30px;
+}
+.foot4-para{
+    display: inline;
+    margin-right: 10px;
+    color: white;
+    font-size: 0.75rem;
+}
+.footer-4 p{
+    color: white;
+    font-size: 0.75rem;
+}
